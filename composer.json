@@ -1,0 +1,23 @@
+{
+    "name": "the-muda-organization/nanobar",
+    "description": "Super lighweight, pure JavaScript page load progress bar",
+    "keywords": [
+        "javascript",
+        "js",
+        "css",
+        "progress-bar",
+        "progress",
+        "lightweight",
+        "nojquery",
+        "statusbar",
+        "muda"
+    ],
+    "readme": "/README.md",
+    "authors": [
+        {
+            "name": "Jakub Muda",
+            "email": "info@muda.pl"
+        }
+    ],
+    "license": "MIT"
+}
