@@ -98,7 +98,7 @@ If you want to change color on a single page add `data-nanobar=""` attribute to 
 
 ********************************************************************************
 ## Versioning
-Font Awesome Animations will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered with the following format:
+Nanonbar will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered with the following format:
 ```<major>.<minor>.<patch>```
 
 
