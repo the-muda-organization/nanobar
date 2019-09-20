@@ -11,7 +11,7 @@ Super lighweight, pure JavaScript page load progress bar
 [![Monthly Downloads](https://poser.pugx.org/the-muda-organization/nanobar/d/monthly)](https://packagist.org/packages/the-muda-organization/nanobar)
 [![Daily Downloads](https://poser.pugx.org/the-muda-organization/nanobar/d/daily)](https://packagist.org/packages/the-muda-organization/nanobar)
 
-[![CSS gzip size](https://img.badgesize.io/the-muda-organization/nanobar/master/nanobar/1.0.0/nanobar.min.css?compression=gzip&label=CSS+gzip+size)](https://github.com/the-muda-organization/nanobar/blob/master/nanobar/1.0.0/nanobar.min.css)
+[![JS gzip size](https://img.badgesize.io/the-muda-organization/nanobar/master/nanobar/1.0.0/nanobar.min.js?compression=gzip&label=JS+gzip+size)](https://github.com/the-muda-organization/nanobar/blob/master/nanobar/1.0.0/nanobar.min.js)
 
 [![License Code](https://poser.pugx.org/the-muda-organization/nanobar/license)](https://packagist.org/packages/the-muda-organization/nanobar)
 
@@ -54,8 +54,8 @@ nanobar/
  │
  └─ 1.x.x/
     │
-    ├── nanobar.css
-    └── nanobar.min.css
+    ├── nanobar.js
+    └── nanobar.min.js
 ```
 
 
@@ -68,10 +68,15 @@ Have a bug or a feature request? Before opening a new issue search for existing 
 ## Installation
 
 1. Download and copy files to your project
-2. Add CSS to your project:
+2. Add JS to your project:
 ```html
-    <link href="https://example.com/nanobar/1.x.x/nanobar.min.css" rel="stylesheet">
+    <script src="https://example.com/nanobar/1.x.x/nanobar.min.js"></script>
 ```
+    OR
+```html
+    <script>Paste script here</script>
+```
+
 3. Ready to use!
 
 
