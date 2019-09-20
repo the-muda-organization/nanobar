@@ -72,7 +72,7 @@ Have a bug or a feature request? Before opening a new issue search for existing 
 ```html
     <script src="https://example.com/nanobar/1.x.x/nanobar.min.js"></script>
 ```
-    OR
+OR add script inline (recommended):
 ```html
     <script>Paste script here</script>
 ```
