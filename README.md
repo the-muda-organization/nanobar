@@ -76,23 +76,24 @@ OR add script inline (recommended):
 ```html
     <script>Paste script here</script>
 ```
-
-3. Ready to use!
+3. Place nanobar `<script>` right after opening `<body>` tag.
+4. Ready to use!
 
 
 ********************************************************************************
 ## How to Use
 
+Nanobar is designed to be placed in CDN and used on multiple pages. Nanobar has default background color set to red. You may set custom background color you like the most in JavaScript variables (atthe beginning of the script).
 
+If you want to change color on a single page add `data-nanobar=""` attribute to `<body>`. You can use any color value that is usually used in CSS `#nanobar{background: something}` - color name, hex value, gradients and more.
 
+```html
+    <body data-nanobar="#ff8c00">
+    <body data-nanobar="blue">
+    <body data-nanobar="linear-gradient(to right,#40e0d0,#ff8c00,#ff0080)">
+```
 
-
-
-
-
-
-
-
+> Do not add this attribute and do not leave blank if you don't want to change background color. JavaScript checks if data-nanobar="#ff8c00" has a new background color value.
 
 
 ********************************************************************************
