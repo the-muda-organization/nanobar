@@ -16,7 +16,7 @@ Super lighweight, pure JavaScript page load progress bar
 [![License Code](https://poser.pugx.org/the-muda-organization/nanobar/license)](https://packagist.org/packages/the-muda-organization/nanobar)
 
 
-## [View Preview]()
+## [View Preview](https://rawcdn.githack.com/the-muda-organization/nanobar/bc45c370a045bb0026cce61b937902ac90dc021f/DEMO.html)
 <img src="https://github.com/the-muda-organization/nanobar/blob/master/PREVIEW.jpg?raw=true" alt="" style="width:100%;display:block;">
 
 
@@ -83,7 +83,7 @@ OR add script inline (recommended):
 ********************************************************************************
 ## How to Use
 
-Nanobar is designed to be placed in CDN and used on multiple pages. Nanobar has default background color set to red. You may set custom background color you like the most in JavaScript variables (atthe beginning of the script).
+Nanobar is designed to be placed in CDN and used on multiple pages. Nanobar has default background color set to red. You may set custom background color you like the most in JavaScript variables (at the beginning of the script).
 
 If you want to change color on a single page add `data-nanobar=""` attribute to `<body>`. You can use any color value that is usually used in CSS `#nanobar{background: something}` - color name, hex value, gradients and more.
 
@@ -95,10 +95,11 @@ If you want to change color on a single page add `data-nanobar=""` attribute to 
 
 > Do not add this attribute and do not leave blank if you don't want to change background color. JavaScript checks if data-nanobar="#ff8c00" has a new background color value.
 
+Nanobar has assigned ID: `<div id="nanobar"><&lt;>/div>`
 
 ********************************************************************************
 ## Versioning
-Nanonbar will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered with the following format:
+Nanobar will be maintained under the Semantic Versioning guidelines as much as possible. Releases will be numbered with the following format:
 ```<major>.<minor>.<patch>```
 
 
