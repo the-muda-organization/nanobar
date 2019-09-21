@@ -95,7 +95,7 @@ If you want to change color on a single page add `data-nanobar=""` attribute to 
 
 > Do not add this attribute and do not leave blank if you don't want to change background color. JavaScript checks if data-nanobar="#ff8c00" has a new background color value.
 
-Nanobar has assigned ID: `<div id="nanobar"><&lt;>/div>`
+Nanobar has assigned ID: `<div id="nanobar"></div>`
 
 ********************************************************************************
 ## Versioning
