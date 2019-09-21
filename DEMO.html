@@ -1,0 +1,177 @@
+<!--
+ *  Nanobar
+ *  v1.0.0
+ *  https://github.com/the-muda-organization/nanobar
+ *  MIT License
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Nanobar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+</head>
+<body class="py-5" data-nanobar="linear-gradient(to right,#40e0d0,#ff8c00,#ff0080)" style="background:#222 url(https://i.imgur.com/99r3MBm.jpg) center/cover no-repeat fixed">
+
+
+<main class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-lg-5">
+            <div class="card text-justify border-dark shadow">
+                <header class="card-header bg-success text-light text-center">
+                    <h1 class="h3 m-0">Nanobar</h1>
+                </header>
+                
+                <!--HOW TO USE-->
+                <div class="card-body">
+                    <p class="card-text">Super lighweight, pure JavaScript page load progress bar.</p>
+                    <div class="h5"><i class="fas fa-lg fa-fw fa-info-circle mr-3"></i>How to use?</div>
+                    <p class="card-text">Add JS to your project: <code>&lt;script src="nanobar.min.js"&gt;&lt;/script&gt;</code></p>
+                    <p class="card-text">OR add script inline (recommended): <code>&lt;script&gt;Paste script here&lt;/script&gt;</code></p>
+                    <p class="card-text">Place nanobar <code>&lt;script&gt;</code> right after opening <code>&lt;body&gt;</code> tag.</p>
+                    <p class="card-text">Nanobar has assigned ID: <code>&lt;div id="nanobar"&gt;&lt;/div&gt;</code></p>
+                </div>
+                <div class="card-body">
+                    <!--COLORS-->
+                    <div class="h5"><i class="fas fa-lg fa-fw fa-palette mr-3"></i>Colors:</div>
+                    <p class="card-text">Nanobar is designed to be placed in CDN and used on multiple pages. Nanobar has default background color set to <span class="badge badge-danger" style="background-color:red">red</span>. You may set custom background color you like the most in JavaScript variables (at the beginning of the script).</p>
+                    <p class="card-text">If you want to change color on a single page add <code>data-nanobar=""</code> attribute to <code>&lt;body&gt;</code>. You can use any color value that is usually used in CSS <code>#nanobar{background: something}</code> - color name, hex value, gradients and more.</p>
+                    
+                    <code class="d-block pl-4">&lt;body data-nanobar="#ff8c00"&gt;</code>
+                    <code class="d-block pl-4">&lt;body data-nanobar="blue"&gt;</code>
+                    <code class="d-block pl-4 mb-3">&lt;body data-nanobar="linear-gradient(to right,#40e0d0,#ff8c00,#ff0080)"&gt;</code>
+                    
+                    <div class="alert alert-danger"><i class="fas fa-lg fa-exclamation-triangle mr-3"></i>Do not add this attribute and do not leave blank if you don't want to change background color. JavaScript checks if <code>data-nanobar="#ff8c00"</code> has a new background color value.</div>
+                    
+                    <hr>
+                    
+                    <!--USEFULL COLORS-->
+                    <div class="font-weight-bold mb-3">Few usefull colors:</div>
+                    <div class="row mx-0 mb-3 text-monospace">
+                        <div class="col-12 py-2 mb-2 text-light" style="background:red">red</div>
+                        <div class="col-12 py-2 mb-2 text-light" style="background:#007bff">#007bff</div>
+                        <div class="col-12 py-2 mb-2 text-dark"  style="background:#ffd700">#ffd700</div>
+                        <div class="col-12 py-2 mb-2 text-dark"  style="background:#39ff14">#39ff14</div>
+                        <div class="col-12 py-2 mb-2 text-light" style="background:#6610f2">#6610f2</div>
+                        <div class="col-12 py-2 mb-2 text-light" style="background:#ff00cc">#ff00cc</div>
+                        <div class="col-12 py-2 mb-2 text-dark"  style="background:#b5cc18">#b5cc18</div>
+                        <div class="col-12 py-2 mb-2 text-dark"  style="background:#ff9600">#ff9600</div>
+                        <div class="col-12 py-2 mb-2 text-dark"  style="background:#EE82EE">#EE82EE</div>
+                        <div class="col-12 py-2 mb-2 text-light" style="background:#000">#000</div>
+                        <div class="col-12 py-2 mb-2 text-dark border" style="background:#fff">#fff</div>
+                    </div>
+                    
+                    <hr>
+                    
+                    <!--EXAMPLE GRADIENTS-->
+                    <div class="font-weight-bold mb-3">Example gradients:</div>
+                    <div class="row m-0 text-monospace">
+                        <div class="col-12 mb-2 py-2 text-dark"  style="background:linear-gradient(to right,#40e0d0,#ff8c00,#ff0080)">linear-gradient(to right,#40e0d0,#ff8c00,#ff0080)</div>
+                        <div class="col-12 mb-2 py-2 text-light" style="background:linear-gradient(-45deg,#F0AE00,#F43C78)">linear-gradient(-45deg,#F0AE00,#F43C78)</div>
+                        <div class="col-12 mb-2 py-2 text-dark"  style="background:linear-gradient(-45deg,#e65c00,#F9D423)">linear-gradient(-45deg,#e65c00,#F9D423)</div>
+                        <div class="col-12 mb-2 py-2 text-dark"  style="background:linear-gradient(-45deg,#16A085,#F4D03F)">linear-gradient(-45deg,#16A085,#F4D03F)</div>
+                        <div class="col-12 mb-2 py-2 text-light" style="background:linear-gradient(to bottom right,#4A4A4A,#2B2B2B)">linear-gradient(to bottom right,#4A4A4A,#2B2B2B)</div>
+                        <div class="col-12 mb-2 py-2 text-light" style="background:linear-gradient(to bottom right,#007bff,#339dd6)">linear-gradient(to bottom right,#007bff,#339dd6)</div>
+                        <div class="col-12 mb-2 py-2 text-dark"  style="background:linear-gradient(to bottom right,#FF9500,#FC0)">linear-gradient(to bottom right,#FF9500,#FC0)</div>
+                        <div class="col-12 mb-2 py-2 text-light" style="background:linear-gradient(to bottom right,#FF2A68,#FF5E3A)">linear-gradient(to bottom right,#FF2A68,#FF5E3A)</div>
+                        <div class="col-12 mb-2 py-2 text-light" style="background:linear-gradient(to bottom right,#28a745,#84b42d)">linear-gradient(to bottom right,#28a745,#84b42d)</div>
+                        <div class="col-12 mb-2 py-2 text-light" style="background:linear-gradient(to right,#1c4dad,#6ca7de)">linear-gradient(to right,#1c4dad,#6ca7de)</div>
+                        <div class="col-12 mb-2 py-2 text-light" style="background:linear-gradient(to right,#008482,#0DBDBD)">linear-gradient(to right,#008482,#0DBDBD)</div>
+                        <div class="col-12 mb-2 py-2 text-light" style="background:linear-gradient(to right,#ff6e00,#ffbf00)">linear-gradient(to right,#ff6e00,#ffbf00)</div>
+                        <div class="col-12 mb-2 py-2 text-dark"  style="background:radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285AEB 90%)">radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285AEB 90%)</div>
+                    </div>
+                    
+                </div>
+                <footer class="card-footer d-flex justify-content-between">
+                    <div>Code released under the <a href="https://github.com/the-muda-organization/nanobar/blob/master/LICENSE" target="_blank">MIT License</a>.</div>
+                    <div><a class="text-dark" href="https://github.com/the-muda-organization/nanobar" target="_blank"><i class="fab fa-lg fa-github"></i></a></div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+<script>
+function Nanobar(){
+    
+    /***************************************************************************
+     *                              VARIABLES
+     ***************************************************************************/
+    var nanobarContainer  = document.createElement('div'),
+        nanobarBackground = 'red',
+        nanobarWidth      = 0,
+        nanobarTarget     = 0,
+        nanobarOn         = 0;
+        
+    /***************************************************************************
+     *                              FUNCTIONS
+     ***************************************************************************/
+    
+    //Nanobar move
+    function move(){
+        var nanobarDistanceToGo = nanobarWidth - nanobarTarget;
+        
+        if(nanobarDistanceToGo < 0.1 && nanobarDistanceToGo > -0.1){
+            nanobarWidth = nanobarTarget;
+            nanobarContainer.style.width = nanobarWidth + '%';
+            nanobarOn = 0;
+            if(nanobarWidth >= 100){
+                nanobarContainer.style.height = 0;
+                setTimeout(function(){
+                    nanobarContainer.remove();
+            },300);
+            }
+        } else{
+            nanobarWidth = nanobarWidth - nanobarDistanceToGo / 4;
+            nanobarContainer.style.width = nanobarWidth + '%';
+            setTimeout(go,16);
+        }
+    }
+
+    //Nanobar progress
+    function go(e){
+        if(e >= 0){
+            nanobarTarget = e;
+            if(!nanobarOn){
+                nanobarOn = 1;
+                move();
+            }
+        } else if(nanobarOn){
+            move();
+        }
+    }
+    
+    /***************************************************************************
+     *                              NANOBAR
+     ***************************************************************************/
+    nanobarContainer.id = 'nanobar';
+    
+    //if data-nanobar="color" exists set nanobar color
+    if(document.body.hasAttribute('data-nanobar')){
+        nanobarBackground = document.body.dataset.nanobar;
+    }
+    
+    nanobarContainer.style.cssText = 'width:0;height:4px;position:fixed;top:0;left:0;z-index:9999;transition:height .3s;pointer-events:none;background:' + nanobarBackground;
+    
+    document.body.appendChild(nanobarContainer);
+    
+    //Move nanobar to 30%, 76%, 100% and and finish
+    go(30);
+    go(76);
+    go(100);
+    
+}
+
+//Create nanobar
+new Nanobar();
+
+</script>
+
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/js/all.min.js"></script>
+
+</body>
+</html>
