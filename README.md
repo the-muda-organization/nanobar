@@ -4,19 +4,20 @@ Super lighweight, pure JavaScript page load progress bar
 
 ********************************************************************************
 ## Status
-[![Latest Stable Version](https://poser.pugx.org/the-muda-organization/nanobar/version)](https://packagist.org/packages/the-muda-organization/nanobar)
-[![Latest Unstable Version](https://poser.pugx.org/the-muda-organization/nanobar/v/unstable)](https://packagist.org/packages/the-muda-organization/nanobar)
-
-[![Total Downloads](https://poser.pugx.org/the-muda-organization/nanobar/downloads)](https://packagist.org/packages/the-muda-organization/nanobar)
-[![Monthly Downloads](https://poser.pugx.org/the-muda-organization/nanobar/d/monthly)](https://packagist.org/packages/the-muda-organization/nanobar)
-[![Daily Downloads](https://poser.pugx.org/the-muda-organization/nanobar/d/daily)](https://packagist.org/packages/the-muda-organization/nanobar)
-
-[![JS gzip size](https://img.badgesize.io/the-muda-organization/nanobar/master/nanobar/1.0.0/nanobar.min.js?compression=gzip&label=JS+gzip+size)](https://github.com/the-muda-organization/nanobar/blob/master/nanobar/1.0.0/nanobar.min.js)
-
-[![License Code](https://poser.pugx.org/the-muda-organization/nanobar/license)](https://packagist.org/packages/the-muda-organization/nanobar)
+[![GitHub Version](https://img.shields.io/github/release/the-muda-organization/nanobar.svg?style=for-the-badge)](https://github.com/the-muda-organization/nanobar)
+[![License](https://img.shields.io/github/license/the-muda-organization/nanobar.svg?style=for-the-badge)](https://github.com/the-muda-organization/nanobar)
 
 
+[![Github Star](https://img.shields.io/github/stars/the-muda-organization/nanobar.svg?style=for-the-badge)](https://github.com/the-muda-organization/nanobar)
+[![Github Fork](https://img.shields.io/github/forks/the-muda-organization/nanobar.svg?style=for-the-badge)](https://github.com/the-muda-organization/nanobar)
+
+[![JS gzip size](https://img.badgesize.io/the-muda-organization/nanobar/master/dist/nanobar.min.js?compression=gzip&label=JS+gzip+size)](https://github.com/the-muda-organization/nanobar/blob/master/dist/nanobar.min.js)
+
+
+********************************************************************************
 ## [View Preview](https://rawcdn.githack.com/the-muda-organization/nanobar/bc45c370a045bb0026cce61b937902ac90dc021f/DEMO.html)
+********************************************************************************
+
 <img src="https://github.com/the-muda-organization/nanobar/blob/master/PREVIEW.jpg?raw=true" alt="" style="width:100%;display:block;">
 
 
@@ -52,7 +53,7 @@ There are no dependencies. See below for [Installation Guide](#installation) and
 ```
 nanobar/
  │
- └─ 1.x.x/
+ └─ dist/
     │
     ├── nanobar.js
     └── nanobar.min.js
