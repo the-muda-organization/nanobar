@@ -2,15 +2,11 @@
     "name": "the-muda-organization/nanobar",
     "description": "Super lighweight, pure JavaScript page load progress bar",
     "keywords": [
-        "javascript",
-        "js",
         "css",
-        "progress-bar",
-        "progress",
+        "javascript",
         "lightweight",
-        "nojquery",
-        "statusbar",
-        "muda"
+        "progress-bar",
+        "statusbar"
     ],
     "readme": "/README.md",
     "authors": [
